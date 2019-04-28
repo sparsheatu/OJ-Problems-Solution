@@ -1,7 +1,8 @@
 /*
 Problem link: http://codeforces.com/problemset/problem/1/A
 ----------------------------------------------------------
-Here the code using a tricky formula : ((a+n-1)/n)*((b+n-1)/n); which may seems like a special formula but it is actually a very elegant way of ceiling the value; We just add the value of divider minus one with the divident then divide by the divider.
+Here the code using a tricky formula : ((a+n-1)/n)*((b+n-1)/n); which may seems like a special formula but it is actually a very elegant 
+way of ceiling the value; We just add the value of divider minus one with the divident then divide by the divider.
 
 That mean: x = (a+n-1)/n; work same as: 
             1. x = a/n;if(a%n!=0) x++;
