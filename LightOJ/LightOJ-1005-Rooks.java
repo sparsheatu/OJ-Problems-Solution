@@ -17,7 +17,7 @@ Formula:  nCk*nCk*k is defined as below:-
         So, the total no. of way of placement is: nCk*nCk*k!. 
         
   For better understanding you may visit link: https://en.wikipedia.org/wiki/Rook_polynomial 
-  Happy Coading.
+  Happy Coding.
 */
 import java.util.*;
 public class Main {
