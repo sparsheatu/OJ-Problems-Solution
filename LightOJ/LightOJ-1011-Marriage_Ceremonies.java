@@ -1,10 +1,9 @@
 /*
 Problrm Link: http://lightoj.com/volume_showproblem.php?problem=1011
-Concept Needed: Bitwise operations, Digit DP
-Concept Link: http://shakilcompetitiveprogramming.blogspot.com/2015/09/digit-dp.html
-              https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
+Concept Needed: Bitwise operations, Bitmask DP.
+Concept Link: Google it. There is plenty of tutorial available.
               
-Learn Digit DP then hopefully you will be able to understand the code.
+Learn Bitmask DP then hopefully you will be able to understand the code.
 Happy coding.
 */
 import java.util.*;
