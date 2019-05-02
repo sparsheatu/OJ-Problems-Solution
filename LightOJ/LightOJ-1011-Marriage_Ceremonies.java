@@ -12,17 +12,17 @@ public class Main {
 	static int point[][] = new int[16][16];
 	static int dp[][] = new int[16][(1<<16)+1];
 	
-	static int calculate(int n, int count, int flag)
+	static int calculate(int n, int count, int mask)
 	{
 		if(count>=n) return 0;
-		if(dp[count][flag] != -1) return dp[count][flag];
+		if(dp[count][mask] != -1) return dp[count][mask];
 
 		for(int i=0; i<n; i++)
 		{
-			if(((1<<i) & flag) == 0)
-				dp[count][flag] = Math.max(dp[count][flag], point[count][i] + calculate(n,count+1, flag | (1<<i)) );
+			if(((1<<i) & mask) == 0)
+				dp[count][mask] = Math.max(dp[count][mask], point[count][i] + calculate(n,count+1, mask | (1<<i)) );
 		}
-		return  dp[count][flag];
+		return  dp[count][mask];
 	}
 	
 	public static void main(String[] args)
